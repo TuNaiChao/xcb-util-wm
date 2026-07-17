@@ -1,3 +1,25 @@
+xcb-util-wm (0.4.2-1) unstable; urgency=medium
+
+  * Team upload.
+
+  [ Jeremy Bicha ]
+  * Build with dh instead of cdbs
+  * Bump debhelper-compat to 13
+  * Add minimal debian/gbp.conf
+  * debian/watch: minor update
+  * Bump Standards-Version to 4.5.1
+
+  [ Debian Janitor ]
+  * Remove MIA uploader Julien Danjou <acid@debian.org>. Closes: #928565
+
+  [ Emilio Pozuelo Monfort ]
+  * New upstream release. Closes: #1084962
+  * debian/watch: switch to version 4, thanks Boyuan Yang.
+  * debian/docs: install README.md, the file has been renamed.
+  * debian/control: switch to pkgconf.
+
+ -- Emilio Pozuelo Monfort <pochu@debian.org>  Fri, 18 Oct 2024 12:17:23 +0200
+
 xcb-util-wm (0.4.1-1.1) unstable; urgency=medium
 
   * Non-maintainer upload.
